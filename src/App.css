@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+/* Styling for the div within the header */
+.header-div {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.header-div button {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.header-div button div {
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the ul list */
+.amount-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount-list ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.amount-list li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.about-madicine {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+.about-madicine h4 {
+  margin-bottom: 0.5rem;
+}
+.about-madicine p {
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for the form within the list */
+.amount-form {
+  width: 110px;
+  background-color: #fff;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.amount-form div {
+  display: flex;
+}
+
+.amount-form div label {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.amount-form div input[type="number"] {
+  border: 1px solid #ccc;
+  width: 3.5rem;
+  height: 13px;
+  text-align: center;
+  padding: 12px;
+}
+
+/* .amount-form div input[type="number"]::-webkit-inner-spin-button,
+.amount-form div input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.amount-form button:hover {
+  background-color: #0056b3;
+}

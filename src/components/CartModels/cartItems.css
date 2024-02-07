@@ -1,0 +1,64 @@
+.model-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(189, 189, 189, 0.9);
+}
+
+.model-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  /* border: 1px solid black; */
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding-bottom: 7px;
+}
+
+ul {
+  display: grid;
+  gap: 18px;
+}
+li {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-right: 30px;
+  /* border: 1px solid red; */
+}
+.medicinInfo {
+  display: grid;
+}
+.totalAmountPrice {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 28px 0 40px;
+  /* border: 1px solid green; */
+}
+.IncDecBtn > button {
+  border: none;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.IncDecBtn > button:hover {
+  cursor: pointer;
+  color: rgb(62, 62, 246);
+}
+.CloseOrderBtn {
+  display: flex;
+  justify-content: right;
+  column-gap: 30px;
+  margin-right: 28px;
+}
