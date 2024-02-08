@@ -15,8 +15,8 @@ const Cart = (props) => {
   };
 
   const OnclickHnalderIncreassAmount = (ele) => {
-    // console.log("eleId", ele);
-    CartCxt.addItem(ele);
+    // console.log({ ...ele, amount: 1 });
+    CartCxt.addItem({ ...ele, amount: 1 });
   };
 
   const UlListVlaue = (

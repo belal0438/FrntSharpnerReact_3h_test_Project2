@@ -15,7 +15,8 @@ const CartProvider = (props) => {
         return prevItems.map((prevItem) =>
           prevItem.id === item.id
             ? { ...prevItem, amount: prevItem.amount + item.amount }
-            : prevItem
+            : // { ...prevItem, amount: prevItem.amount + 1 }
+              prevItem
         );
       });
     } else {
